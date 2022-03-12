@@ -1,0 +1,232 @@
+body {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+div,p,input,button,form,span,a,ul,li,ol {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+}
+
+p {
+    line-height: 1.66em;
+    padding: 0;
+    margin: 0;
+}
+.exit {
+    margin-top: 1rem;
+    text-align: center;
+}
+.exitBTN {
+    margin-bottom: 1rem;
+    color:  black;
+    border:2px solid red;
+    border-radius: 50px;
+    padding: 5px;
+    transition: all .5s ease;
+    font:  normal 20px/1.4em futura-lt-w01-light,sans-serif;
+}
+
+.exitBTN:hover {
+    border:2px solid black;
+    background-color: red;
+}
+
+
+.Login {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AdminLOGIN {
+    display: flex;
+    flex-direction:column;
+}
+.AdminLOGIN input {
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border:1px solid #2C6CE1;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.AdminLOGIN input:hover {
+    border:5px solid #26b7e1;
+}
+
+.admin {
+    margin-top: 10rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.Product {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Product a,.Users a {
+    color:#2C6CE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 120px;
+    height: 40px;
+    border:1px solid #2C6CE1;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.Product a:hover ,.Users a:hover {
+    border:20px solid #26b7e1;
+    color:white;
+}
+
+.Users {
+    margin-right: 15px;
+    flex-direction: column;
+    display: flex;
+}
+
+.UserDelete {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backBTN {
+    text-transform: uppercase;
+    color:#2C6CE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 120px;
+    height: 40px;
+    border:1px solid #2C6CE1;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.backBTN:hover {
+    background-color: #2C6CE1;
+    color:white;
+}
+
+table td,th{
+    text-align: center;
+    border: 1px solid black;
+    background-color: bisque;
+    transition: all .5s ease;
+}
+
+td a {
+    color:red;
+}
+
+table:hover td:hover,th:hover{
+    background-color: beige;
+}
+
+.idSpan {
+    font:  normal 16px/1.4em futura-lt-w01-light,sans-serif;
+    color:hotpink;
+}
+
+.LoginSpan,.EmailSpan{
+    font:  normal 16px/1.4em futura-lt-w01-light,sans-serif;
+    color:#2C6CE1;
+}
+
+#regForm,.UserEdit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.inputReg, .regB {
+    margin: 7px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border:1px solid #2C6CE1;
+    cursor: pointer;
+    transition: all .5s ease;
+    color:#2C6CE1;
+}
+
+.regB {
+    background-color: #fff;
+}
+
+.inputReg:hover,.regB:hover {
+    background-color: #26b7e1;
+    color:#2C6CE1;
+}
+
+.UserEditTable input{
+    background-color: #fff;
+    width: 120px;
+    text-align: center;
+}
+
+.EditBTN {
+    margin-left: 5rem;
+    display: flex;
+    width: 120px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #2C6CE1;
+    cursor: pointer;
+    transition: all .5s ease;
+    color:#2C6CE1;
+}
+
+.ProductD {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.FileIMG {
+    width: 30px;
+    height: 50px;
+}
+
+.ProductEdit {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
