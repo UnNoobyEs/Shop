@@ -161,7 +161,7 @@
                 </div>
          </div>
     </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.4961630644184!2d76.95524821493237!3d43.24102217913751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836efbcb65def7%3A0x5004a2dcfd21b0bc!2z0KbQkNCi0K3Qmg!5e0!3m2!1sru!2skz!4v1579607433199!5m2!1sru!2skz" width="100%" height="400" class="maps"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577325.3485127188!2d36.82509492938725!3d55.581524336976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1647103031271!5m2!1sru!2sru" width="100%" height="400" class="maps"></iframe>
 </section>
 
 <?php require "footer.php" ?>
